@@ -4,7 +4,7 @@
 # Installs Python packages and essential tools for a-Shell on iPhone/iPad.
 #
 # HOW TO USE:
-#   curl --fail -fsSL https://raw.githubusercontent.com/YOUR_REPO/main/scripts/bagodor/bagodor-ios.sh \
+#   curl --fail -fsSL https://raw.githubusercontent.com/dayewpplizwill-create/pocket-devkit/main/scripts/bagodor/bagodor-ios.sh \
 #     -o /tmp/bagodor-ios.sh && sh /tmp/bagodor-ios.sh
 #
 # INSTALL EXTRAS (heavier, more likely to fail on iOS):

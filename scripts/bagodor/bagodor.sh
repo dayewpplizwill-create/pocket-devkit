@@ -8,7 +8,7 @@
 # and runs the correct platform script.
 #
 # HOW TO USE:
-#   curl -fsSL https://raw.githubusercontent.com/YOUR_REPO/main/scripts/bagodor/bagodor.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/dayewpplizwill-create/pocket-devkit/main/scripts/bagodor/bagodor.sh | sh
 #
 # Or, if you've cloned the repo:
 #   sh scripts/bagodor/bagodor.sh
@@ -93,7 +93,7 @@ esac
 SCRIPT_DIR="$(cd "$(dirname "$0")" 2>/dev/null && pwd || echo ".")"
 IOS_SCRIPT="$SCRIPT_DIR/bagodor-ios.sh"
 TERMUX_SCRIPT="$SCRIPT_DIR/bagodor-termux.sh"
-BASE_URL="${BAGODOR_BASE_URL:-https://raw.githubusercontent.com/YOUR_REPO/main/scripts/bagodor}"
+BASE_URL="${BAGODOR_BASE_URL:-https://raw.githubusercontent.com/dayewpplizwill-create/pocket-devkit/main/scripts/bagodor}"
 
 # Download to a temp file and verify before executing.
 # Piping curl/wget directly into sh hides download failures.

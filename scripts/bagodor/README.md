@@ -17,19 +17,19 @@ One-command setup for mobile terminal environments.
 
 **iOS (a-Shell):**
 ```sh
-curl --fail -fsSL https://raw.githubusercontent.com/YOUR_REPO/main/scripts/bagodor/bagodor-ios.sh \
+curl --fail -fsSL https://raw.githubusercontent.com/dayewpplizwill-create/pocket-devkit/main/scripts/bagodor/bagodor-ios.sh \
   -o /tmp/bagodor-ios.sh && sh /tmp/bagodor-ios.sh
 ```
 
 **Android (Termux):**
 ```sh
-curl --fail -fsSL https://raw.githubusercontent.com/YOUR_REPO/main/scripts/bagodor/bagodor-termux.sh \
+curl --fail -fsSL https://raw.githubusercontent.com/dayewpplizwill-create/pocket-devkit/main/scripts/bagodor/bagodor-termux.sh \
   -o /tmp/bagodor-termux.sh && bash /tmp/bagodor-termux.sh
 ```
 
 **Auto-detect (runs the right script for your platform):**
 ```sh
-curl --fail -fsSL https://raw.githubusercontent.com/YOUR_REPO/main/scripts/bagodor/bagodor.sh \
+curl --fail -fsSL https://raw.githubusercontent.com/dayewpplizwill-create/pocket-devkit/main/scripts/bagodor/bagodor.sh \
   -o /tmp/bagodor.sh && sh /tmp/bagodor.sh
 ```
 

@@ -4,7 +4,7 @@
 # Installs system packages, Python, Node.js, and common dev tools in Termux.
 #
 # HOW TO USE:
-#   curl --fail -fsSL https://raw.githubusercontent.com/YOUR_REPO/main/scripts/bagodor/bagodor-termux.sh \
+#   curl --fail -fsSL https://raw.githubusercontent.com/dayewpplizwill-create/pocket-devkit/main/scripts/bagodor/bagodor-termux.sh \
 #     -o /tmp/bagodor-termux.sh && bash /tmp/bagodor-termux.sh
 #
 # INSTALL EXTRAS (heavier tools: emacs, DB servers, playwright, etc.):
